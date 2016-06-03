@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+section {
+    width: 100%;
+    background-color: aquamarine;
+    height: 540px;       
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    border: 1px black solid;
+}
+
+section ul {
+    height: auto;
+    width: auto;
+    background-color: black;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 13%;
+    margin-top: 1em;
+}
+
+section li {
+    width: 106px;
+    height: 36px;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+#central-text {
+    width: auto;
+    margin: 8% 20% 0 20%;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 30px 0 30px 0;
+}
+
+h1 {
+    font-size: 50pt;
+}
+h2 {
+    font-size: 25pt;
+}
+h3 {
+    font-size: 20pt;
+}
+
+footer ul {
+    height: 264px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    width: 333px;
+    height: 100%;
+    background: cyan;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#extra-info {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 8em;
+}
