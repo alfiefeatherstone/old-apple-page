@@ -6,8 +6,8 @@ body, html {
 }
 
 section {
-    width: 100%;
-    background-color: aquamarine;
+    width: 1349px;
+    background: url("http://web.archive.org/web/20140228113259/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% / 1440px 1315px no-repeat;;
     height: 540px;       
     position: relative;
     margin: 0;
@@ -17,25 +17,31 @@ section {
 ul {
     list-style: none;
     display: inline-block;
-    border: 1px black solid;
 }
 
 section ul {
     height: auto;
     width: auto;
-    background-color: black;
     position: relative;
     padding: 0;
     margin: 0;
     left: 13%;
     margin-top: 1em;
+     background-size: 100% 50%, 100% 50%, 100% 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, #FFA73D 100%),
+        linear-gradient(to left, rgba(0,0,0,0) 0%, #FF7E03 100%), 
+        linear-gradient(to bottom, #FFB463 0%, #FF7E03 100%);
+    background-position: 0 0, 0 100%, 0 0;
+    background-repeat: no-repeat;
+    border-radius: 4px;
 }
 
 section li {
     width: 106px;
     height: 36px;
     display: inline-block;
-    border-right: 1px solid white;
+    border-right: 1px solid black;
+    
 }
 
 #central-text {
@@ -60,19 +66,32 @@ h3 {
 }
 
 footer ul {
-    height: 264px;
+    height: 200px;
     width: auto;
     padding: 0;
     margin: 0;
 }
 
 footer li {
-    width: 333px;
+    width: 333.5px;
     height: 100%;
     background: cyan;
     display: inline-block;
     margin: 0;
     padding: 0;
+}
+
+footer ul li:nth-child(1) {
+    background: url("http://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg") no-repeat;
+}
+footer ul li:nth-child(2) {
+     background: url("http://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg") no-repeat;
+}
+footer ul li:nth-child(3) {
+     background: url("http://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg") no-repeat;
+}
+footer ul li:nth-child(4) {
+     background: url("http://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg") no-repeat;
 }
 
 #extra-info {
